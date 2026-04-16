@@ -33,7 +33,7 @@ lista_equipos = [
     "10-SGA10-AP003-M01"
 ]
 
-st.title("⚡ Sistema de Registro de Mediciones")
+st.title("⚡ Mediciones eléctricas de motores")
 
 # --- FORMULARIO PRINCIPAL ---
 with st.form("form_mediciones", clear_on_submit=True):
