@@ -47,17 +47,17 @@ with st.form("form_mediciones", clear_on_submit=True):
     col_izq, col_der = st.columns(2)
 
     with col_izq:
-       st.subheader("🔹 Alimentación")
-        st.markdown("**Aislamiento**")
+        st.subheader("🔹 Alimentación")
+        
         alim_l1_l2 = st.text_input("L1-L2 (MΩ)")
         alim_l1_l3 = st.text_input("L1-L3 (MΩ)")
         alim_l2_l3 = st.text_input("L2-L3 (MΩ)")
-        st.write("")
+       
         alim_l1_t = st.text_input("L1-T (MΩ)")
         alim_l2_t = st.text_input("L2-T (MΩ)")
         alim_l3_t = st.text_input("L3-T (MΩ)")
         st.write("")
-        st.markdown("**Voltajes**")
+
         volt_l1 = st.text_input("L1-T (V)")
         volt_l2 = st.text_input("L2-T (V)")
         volt_l3 = st.text_input("L3-T (V)")
