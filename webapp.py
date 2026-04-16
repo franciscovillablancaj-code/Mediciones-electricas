@@ -48,7 +48,6 @@ with st.form("form_mediciones", clear_on_submit=True):
 
     with col_izq:
        st.subheader("🔹 Alimentación")
-        st.write("")
         st.markdown("**Aislamiento**")
         alim_l1_l2 = st.text_input("L1-L2 (MΩ)")
         alim_l1_l3 = st.text_input("L1-L3 (MΩ)")
