@@ -52,7 +52,7 @@ with st.form("form_mediciones", clear_on_submit=True):
         alim_l1_l2 = st.text_input("L1-L2 (MΩ)")
         alim_l1_l3 = st.text_input("L1-L3 (MΩ)")
         alim_l2_l3 = st.text_input("L2-L3 (MΩ)")
-       
+        st.markdown("### Aislamientos")
         alim_l1_t = st.text_input("L1-T (MΩ)")
         alim_l2_t = st.text_input("L2-T (MΩ)")
         alim_l3_t = st.text_input("L3-T (MΩ)")
